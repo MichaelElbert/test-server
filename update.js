@@ -7,4 +7,4 @@ function handle(error, stdout, stderr) {
         })
     })
 }
-exec("forever stopall", handle);
+exec("forever stop server.js", handle);
